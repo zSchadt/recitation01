@@ -15,7 +15,8 @@
 
 #include <stdio.h>
 
-int main(int argc, char **argv){
-printf("Hello world! (standard.c)\n");
-return 0;
+int main(int argc, char **argv)
+{
+    printf("Hello world! (standard.c)\n");
+    return 0;
 }

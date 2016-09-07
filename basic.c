@@ -10,11 +10,14 @@
 
 /**
  * in Java, to receieve input and output, we use System.in and System.out
- * in C, we also have standard input and standard output, but the libraries 
- * to use them aren't included by default, so we must manually include the 
+ * in C, we also have standard input and standard output, but the libraries
+ * to use them aren't included by default, so we must manually include the
  * header files. We’ll understand header files soon.
  */
 
 #include <stdio.h>
 
-void main() { /* equivalent of System.out.printf */  printf("Hello world! (basic.c)\n"); }
+void main()
+{
+    /* equivalent of System.out.printf */  printf("Hello world! (basic.c)\n");
+}
